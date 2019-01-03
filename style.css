@@ -10,6 +10,11 @@ body {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 header {
   background-color: black;
   color: floralwhite;
@@ -36,8 +41,12 @@ li {
   float: left;
   list-style: none;
   margin-left: 25px;
-  font-size: 1.1em;
   font-family: 'Averia Serif Libre';
+}
+
+li:hover {
+  color: grey;
+  transition: 0.25s;
 }
 
 .hero {
@@ -85,13 +94,14 @@ li {
   background-position: center;
   color: floralwhite;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   font-size: 1.4em;
 }
 
 .booking-cta__text {
-  padding-left: 65%;
+  padding-left: 50%;
 }
 
 .contact-section {
@@ -251,6 +261,17 @@ footer {
   font-family: monospace;
   font-size: 1.1em;
   padding-bottom: 20px;
+}
+
+.banner-image {
+    background-image: URL("images/lights-b&w.jpg");
+    background-size: cover;
+    background-position: 0 -700px;
+    height: 250px;
+}
+
+.page {
+  padding: 150px 0;
 }
 
 @media(min-width: 1500px) {
