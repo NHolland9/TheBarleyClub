@@ -10,10 +10,10 @@
 
     <header>
 
-      <div class="logo">
-        <a href="../index.html"><img src="../images/12.jpg" width=120px /></a>
-        <p class=logo__title>THE BARLEY CLUB</p>
-      </div>
+      <a href="../index.html"><div class="logo">
+        <img src="../images/12.jpg" width=120px />
+        <p class="logo__title">THE BARLEY CLUB</p>
+      </div></a>
 
       <ul>
         <li><a href="../index.html">HOME</a></li>
@@ -34,9 +34,21 @@
         <div class="booking-plugin"></div>
 
         <div class="booking-text">
-          <p>If you're interested in making a booking please use the booking feature here to make an enquiry.</p>
-          <p>Alternatively, you can call us on 01485 666891 now.</p>
+          <h1 class="page__title">BOOK NOW</h1>
+          <p class="page__line">If you're interested in making a booking please use the feature here to make an enquiry.</p>
+          <p class="page__line">Alternatively, you can <span class="bold">call us on 01485 666891 now.</span></p>
         </div>
+      </div>
+
+
+      <div class="subscription">
+        <h1 class="subscription__title">SUBSCRIBE</h1>
+        <p>Sign up for our newsletter to receive news and updates</p>
+
+        <form class="subscription__form">
+          <input class="subscription__email" type="email" placeholder="Email" />
+          <input class="subscription__submit" type="submit" value="SIGN UP" />
+        </form>
       </div>
 
     </main>
