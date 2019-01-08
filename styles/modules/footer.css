@@ -1,0 +1,111 @@
+.subscription {
+  background-color: black;
+  color: floralwhite;
+  padding: 50px 0;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.subscription--home {
+  padding: 150px 0;
+}
+
+.subscription__title {
+  padding-bottom: 30px;
+  font-size: 2em;
+  font-family: "Archivo Narrow";
+}
+
+.subscription__title--home {
+  padding-bottom: 50px;
+  font-size: 2.5em;
+}
+
+.subscription__form {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.subscription__form--home {
+  padding-bottom: 70px
+}
+
+.subscription__email {
+  height: 40px;
+  border: none;
+  padding: 0 0 0 15px;
+  width: 300px;
+  font-size: 1.2em;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.subscription__email--home {
+  height: 60px;
+}
+
+.subscription__submit {
+  height: 40px;
+  width: 130px;
+  background-color: dodgerblue;
+  border: none;
+  color: floralwhite;
+  font-size: 1em;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.subscription__submit--home {
+  height: 60px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer__section {
+  padding: 70px 0;
+  width: 15%;
+}
+
+.footer__section--cta {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.footer__section--booking-link {
+  color: floralwhite;
+  padding: 15px 40px;
+  margin: 20px;
+  background-color: black;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.footer__section--booking-link:hover {
+  color: grey;
+  transition: 0.25s;
+}
+
+.footer__section--middle {
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+  font-family: 'Archivo Narrow';
+}
+
+.footer__section--title {
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.copyright {
+  font-family: monospace;
+  font-size: 1.1em;
+  padding-bottom: 20px;
+  text-align: center;
+}

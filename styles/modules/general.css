@@ -1,0 +1,51 @@
+body, h1, h2, p, img {
+  margin: 0;
+}
+
+body {
+  font-family: "lato";
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.banner-image {
+    background-image: URL("../../images/lights-b&w-cropped.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.page {
+  padding: 150px 0;
+}
+
+.page--about {
+  padding: 150px 25%;
+}
+
+.page--booking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__title {
+  font-family: "Archivo Narrow";
+  padding-bottom: 30px;
+}
+
+.page__title--center {
+  text-align: center;
+}
+
+.page__line {
+  padding-bottom: 30px;
+  font-size: 1.3em;
+}

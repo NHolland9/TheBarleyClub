@@ -1,0 +1,20 @@
+.menu__heading {
+  font-family: 'Archivo Narrow';
+  font-size: 1.8em;
+  padding: 20px 0 0 90px;
+  font-weight: normal;
+  background-color: black;
+  color: floralwhite;
+  width: 40%;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.menu__item {
+  padding: 0 0 20px 60px;
+}
+
+.menu__item--title {
+  font-size: 1.6em;
+  font-family: 'Archivo Narrow';
+}

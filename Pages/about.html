@@ -1,56 +1,74 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/modules/general.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/modules/header.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/modules/footer.css" />
+
     <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
   </head>
+
+
   <body>
 
     <header>
 
-      <a href="../index.html"><div class="logo">
-        <img src="../images/12.jpg" width=120px />
-        <p class="logo__title">THE BARLEY CLUB</p>
-      </div></a>
+      <div class="navbar">
 
-      <ul>
-        <li><a href="../index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT US</a></li>
-        <li><a href="menus.html">MENUS</a></li>
-        <li><a href="booking.html">BOOK A TABLE</a></li>
-      </ul>
+        <a href="../index.html"><div class="navbar__logo">
+          <img src="../images/12.jpg" width=120px />
+          <p class="navbar__title">THE BARLEY CLUB</p>
+        </div></a>
 
-    </header>
+        <ul>
+          <li class="navbar__link"><a href="../index.html">HOME</a></li>
+          <li class="navbar__link"><a href="about.html">ABOUT US</a></li>
+          <li class="navbar__link"><a href="menus.html">MENUS</a></li>
+          <li class="navbar__link"><a href="booking.html">BOOK A TABLE</a></li>
+          <li class="navbar__link"><a href="events.html">EVENTS</a></li>
+        </ul>
 
-    <main>
+      </div>
+
 
       <div class="banner-image"></div>
 
+    </header>
+
+
+    <main>
 
       <div class="page page--about">
+
         <h1 class="page__title">ABOUT THE BARLEY CLUB</h1>
         <p class="page__line">Located in the heart of Baldock The Barley Club is inspired by the Malting history of the town. By 1700 Baldock was becoming famous for its locally grown Barley, and a home to many breweries.</p>
         <p class="page__line">Our intimate 34-seater restaurant will serve a freshly prepared tasting menu using seasonal produce sourced locally and features the finest flavours from around the world.</p>
         <p class="page__line">With our delicious menus, stylish yet relaxed and friendly atmosphere, you'll be able to dine and indulge whilst being offered a premium service.</p>
         <p class="page__line">We're open Thursday, Friday and Saturday evenings for an end of week treat with family or friends and why not pop in on a Sunday for a roast packed with all the traditional British flavours, cooked The Barley Club way.</p>
+
       </div>
 
+    </main>
+
+
+    <footer>
 
       <div class="subscription">
+
         <h1 class="subscription__title">SUBSCRIBE</h1>
         <p>Sign up for our newsletter to receive news and updates</p>
+
 
         <form class="subscription__form">
           <input class="subscription__email" type="email" placeholder="Email" />
           <input class="subscription__submit" type="submit" value="SIGN UP" />
         </form>
+
       </div>
 
-    </main>
 
-    <footer>
       <div class="footer">
 
         <div class="footer__section footer__section--cta">
@@ -75,8 +93,11 @@
 
       </div>
 
-      <p class="copyright">The Barley Club &copy; 2018<br />Website by Nathan Holland</p>
+
+      <p class="copyright">The Barley Club &copy; 2018<br /><a href="https://www.nathanholland.co.uk" target="_blank">Website by Nathan Holland</a></p>
+
     </footer>
 
   </body>
+
 </html>

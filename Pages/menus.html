@@ -1,66 +1,91 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/modules/general.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/modules/header.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/modules/footer.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/menu.css" />
+
     <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
   </head>
+
+
   <body>
 
     <header>
 
-      <a href="../index.html"><div class="logo">
-        <img src="../images/12.jpg" width=120px />
-        <p class="logo__title">THE BARLEY CLUB</p>
-      </div></a>
+      <div class="navbar">
 
-      <ul>
-        <li><a href="../index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT US</a></li>
-        <li><a href="menus.html">MENUS</a></li>
-        <li><a href="booking.html">BOOK A TABLE</a></li>
-      </ul>
+        <a href="../index.html"><div class="navbar__logo">
+          <img src="../images/12.jpg" width=120px />
+          <p class="navbar__title">THE BARLEY CLUB</p>
+        </div></a>
 
-    </header>
+        <ul>
+          <li class="navbar__link"><a href="../index.html">HOME</a></li>
+          <li class="navbar__link"><a href="about.html">ABOUT US</a></li>
+          <li class="navbar__link"><a href="menus.html">MENUS</a></li>
+          <li class="navbar__link"><a href="booking.html">BOOK A TABLE</a></li>
+          <li class="navbar__link"><a href="events.html">EVENTS</a></li>
+        </ul>
 
-    <main>
+      </div>
+
 
       <div class="banner-image"></div>
 
+    </header>
+
+
+    <main>
 
       <div class="page--about">
+
         <h1 class="page__title page__title--center">MENU</h1>
+
+
         <h2 class="menu__heading">STARTERS</h2>
         <p class="menu__item"><span class="menu__item--title">NICOISE SALAD </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;6</p>
         <p class="menu__item"><span class="menu__item--title">MOULES MARINIERE </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;7</p>
         <p class="menu__item"><span class="menu__item--title">SPANISH CHORIZO </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;6</p>
+
+
         <h2 class="menu__heading">MAINS</h2>
         <p class="menu__item"><span class="menu__item--title">ROAST DUCK LEG </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;16</p>
         <p class="menu__item"><span class="menu__item--title">BUTTERNUT SQUASH RISOTTO </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;13.50</p>
         <p class="menu__item"><span class="menu__item--title">300G FILLET STEAK </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;22</p>
         <p class="menu__item"><span class="menu__item--title">PAN FRIED SEA BREAM </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;17.50</p>
         <p class="menu__item"><span class="menu__item--title">SLOW COOKED RABBIT STEW </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;16</p>
+
+
         <h2 class="menu__heading">DESSERTS</h2>
         <p class="menu__item"><span class="menu__item--title">LUXURY VICTORIA SPONGE </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;5.50</p>
         <p class="menu__item"><span class="menu__item--title">BREAD AND BUTTER PUDDING </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;6</p>
         <p class="menu__item"><span class="menu__item--title">BARLEY CLUB CHEESE BOARD </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;6.50</p>
+
       </div>
 
+    </main>
+
+
+    <footer>
 
       <div class="subscription">
+
         <h1 class="subscription__title">SUBSCRIBE</h1>
         <p>Sign up for our newsletter to receive news and updates</p>
+
 
         <form class="subscription__form">
           <input class="subscription__email" type="email" placeholder="Email" />
           <input class="subscription__submit" type="submit" value="SIGN UP" />
         </form>
+
       </div>
 
-    </main>
 
-    <footer>
       <div class="footer">
 
         <div class="footer__section footer__section--cta">
@@ -85,8 +110,11 @@
 
       </div>
 
-      <p class="copyright">The Barley Club &copy; 2018<br />Website by Nathan Holland</p>
+
+      <p class="copyright">The Barley Club &copy; 2018<br /><a href="https://www.nathanholland.co.uk" target="_blank">Website by Nathan Holland</a></p>
+
     </footer>
 
   </body>
+
 </html>

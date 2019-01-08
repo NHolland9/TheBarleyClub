@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles/modules/general.css" />
+    <link rel="stylesheet" type="text/css" href="styles/modules/header.css" />
+    <link rel="stylesheet" type="text/css" href="styles/modules/footer.css" />
+    <link rel="stylesheet" type="text/css" href="styles/home.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   </head>
+
+
   <body>
 
     <header>
 
-      <a href="index.html"><div class="logo">
-        <img src="images/12.jpg" width=120px />
-        <p class="logo__title">THE BARLEY CLUB</p>
-      </div></a>
+      <div class="navbar">
 
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="pages/about.html">ABOUT US</a></li>
-        <li><a href="pages/menus.html">MENUS</a></li>
-        <li><a href="pages/booking.html">BOOK A TABLE</a></li>
-      </ul>
+        <a href="index.html"><div class="navbar__logo">
+          <img src="images/12.jpg" width=120px />
+          <p class="navbar__title">THE BARLEY CLUB</p>
+        </div></a>
+
+        <ul>
+          <li class="navbar__link"><a href="index.html">HOME</a></li>
+          <li class="navbar__link"><a href="pages/about.html">ABOUT US</a></li>
+          <li class="navbar__link"><a href="pages/menus.html">MENUS</a></li>
+          <li class="navbar__link"><a href="pages/booking.html">BOOK A TABLE</a></li>
+          <li class="navbar__link"><a href="pages/events.html">EVENTS</a></li>
+        </ul>
+
+      </div>
 
     </header>
+
 
     <main>
 
@@ -46,8 +58,10 @@
 
 
       <div class="contact-section">
+
         <div class="contact-form__wrapper">
           <h1 class="contact-form__title">CONTACT US</h1>
+
           <form class="contact-form">
             <div class="contact-form__input-wrapper">
               <input class="contact-form__input" type="text" placeholder="NAME" />
@@ -59,29 +73,37 @@
           </form>
         </div>
 
+
         <div class="contact-text">
           <p class="page__line">If you'd like to get in touch with us please use the contact form here.</p>
           <p class="page__line">Alternatively you can <span class="bold">call us now on 07592 820761</span></p>
           <p class="page__line">The Barley Club<br />31 Hitchin Street<br />Baldock, Herts<br />SG7 6AQ</p>
         </div>
+
       </div>
 
+    </main>
+
+
+    <footer>
 
       <div class="subscription subscription--home">
+
         <h1 class="subscription__title subscription__title--home">SUBSCRIBE</h1>
         <p>Sign up for our newsletter to receive news and updates</p>
+
 
         <form class="subscription__form subscription__form--home">
           <input class="subscription__email subscription__email--home" type="email" placeholder="Email" />
           <input class="subscription__submit subscription__submit--home" type="submit" value="SIGN UP" />
         </form>
 
+
         <p>Your email address will only be used to send you our newsletters</p>
+
       </div>
 
-    </main>
 
-    <footer>
       <div class="footer">
 
         <div class="footer__section footer__section--cta">
@@ -106,8 +128,11 @@
 
       </div>
 
-      <p class="copyright">The Barley Club &copy; 2018<br />Website by Nathan Holland</p>
+
+      <p class="copyright">The Barley Club &copy; 2018<br /><a href="https://www.nathanholland.co.uk" target="_blank">Website by Nathan Holland</a></p>
+
     </footer>
 
   </body>
+
 </html>

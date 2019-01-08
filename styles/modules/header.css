@@ -1,0 +1,33 @@
+.navbar {
+  background-color: black;
+  color: floralwhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.navbar__logo {
+  font-size: 1.4em;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__title {
+  margin-left: 15px;
+  padding: 13px 25px;
+  border-left: 2px solid silver;
+  font-family: 'Archivo Narrow';
+}
+
+.navbar__link {
+  float: left;
+  list-style: none;
+  margin-left: 25px;
+  font-family: 'Archivo Narrow';
+  transition: 0.25s;
+}
+
+.navbar__link:hover {
+  color: grey;
+}
