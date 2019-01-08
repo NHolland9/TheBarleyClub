@@ -10,11 +10,11 @@
   margin-top: 50px;
 }
 
-.menu__item {
+.menu__description {
   padding: 0 0 20px 60px;
 }
 
-.menu__item--title {
+.menu__title {
   font-size: 1.6em;
   font-family: 'Archivo Narrow';
 }

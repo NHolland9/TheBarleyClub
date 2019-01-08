@@ -77,27 +77,27 @@
   font-size: 1.2em;
 }
 
-.footer__section--booking-link {
-  color: floralwhite;
-  padding: 15px 40px;
-  margin: 20px;
-  background-color: black;
-  border-radius: 12px;
-  display: inline-block;
-}
-
-.footer__section--booking-link:hover {
-  color: grey;
-  transition: 0.25s;
-}
-
 .footer__section--middle {
   border-left: 1px solid silver;
   border-right: 1px solid silver;
   font-family: 'Archivo Narrow';
 }
 
-.footer__section--title {
+.footer__booking-link {
+  color: floralwhite;
+  padding: 15px 40px;
+  margin: 20px;
+  background-color: black;
+  border-radius: 12px;
+  display: inline-block;
+  transition: 0.25s;
+}
+
+.footer__booking-link:hover {
+  color: grey;
+}
+
+.footer__title {
   font-size: 1.1em;
   font-weight: bold;
   padding-bottom: 5px;

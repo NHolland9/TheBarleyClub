@@ -6,13 +6,13 @@ body {
   font-family: "lato";
 }
 
-.bold {
-  font-weight: bold;
-}
-
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .banner-image {
@@ -23,10 +23,6 @@ a {
 }
 
 .page {
-  padding: 150px 0;
-}
-
-.page--about {
   padding: 150px 25%;
 }
 
