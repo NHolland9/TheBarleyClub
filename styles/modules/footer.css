@@ -1,13 +1,13 @@
 .subscription {
   background-color: black;
   color: floralwhite;
-  padding: 50px 0;
+  padding: 50px 20px;
   text-align: center;
   font-size: 1.1em;
 }
 
 .subscription--home {
-  padding: 150px 0;
+  padding: 120px 20px;
 }
 
 .subscription__title {
@@ -35,7 +35,7 @@
   height: 40px;
   border: none;
   padding: 0 0 0 15px;
-  width: 300px;
+  width: 250px;
   font-size: 1.2em;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -62,31 +62,32 @@
 
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 20px 0;
 }
 
 .footer__section {
-  padding: 70px 0;
-  width: 15%;
+  font-size: 1.2em;
+  padding: 30px 40px;
 }
 
 .footer__section--cta {
   font-weight: bold;
-  font-size: 1.2em;
 }
 
 .footer__section--middle {
-  border-left: 1px solid silver;
-  border-right: 1px solid silver;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
   font-family: 'Archivo Narrow';
 }
 
 .footer__booking-link {
   color: floralwhite;
   padding: 15px 40px;
-  margin: 20px;
+  margin-top: 20px;
   background-color: black;
   border-radius: 12px;
   display: inline-block;
@@ -108,4 +109,38 @@
   font-size: 1.1em;
   padding-bottom: 20px;
   text-align: center;
+}
+
+@media(min-width: 1500px) {
+
+  .subscription {
+    padding: 50px 0;
+  }
+
+  .subscription--home {
+    padding: 150px 0;
+  }
+
+  .subscription__email {
+    width: 300px;
+  }
+
+  .footer {
+    flex-direction: row;
+    padding: 20px 0;
+  }
+
+  .footer__section {
+    padding: 70px 0;
+    width: 15%;
+  }
+
+  .footer__section--middle {
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    font-family: 'Archivo Narrow';
+  }
+
 }

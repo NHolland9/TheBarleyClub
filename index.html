@@ -18,22 +18,25 @@
 
       <div class="mobile-navbar">
 
-        <div>
-          <a href="index.html"><img src="images/mobile-logo.png" width=250px /></a>
+        <div class="dropdown">
+          <img class="dropdown__cross"src="images/cross.png" width=25px />
+
+          <ul class="dropdown__link-wrapper">
+            <li class="dropdown__link"><a href="index.html">HOME</a></li>
+            <li class="dropdown__link"><a href="pages/about.html">ABOUT US</a></li>
+            <li class="dropdown__link"><a href="pages/menus.html">MENUS</a></li>
+            <li class="dropdown__link"><a href="pages/booking.html">BOOK A TABLE</a></li>
+            <li class="dropdown__link"><a href="pages/events.html">EVENTS</a></li>
+          </ul>
         </div>
+
+
+        <a href="index.html"><img class="mobile-navbar__logo" src="images/mobile-logo.png" width=250px /></a>
 
         <div class="mobile-navbar__button">
           <p>MENU</p>
-          <img class="mobile-navbar__burger" src="../images/burger-menu.png" width=25px height=25px />
+          <img class="mobile-navbar__burger" src="images/burger-menu.png" width=25px />
         </div>
-
-        <ul class="mobile-navbar__links">
-          <li class="links"><a href="index.html">HOME</a></li>
-          <li class="links"><a href="pages/about.html">ABOUT US</a></li>
-          <li class="links"><a href="pages/menus.html">MENUS</a></li>
-          <li class="links"><a href="pages/booking.html">BOOK A TABLE</a></li>
-          <li class="links"><a href="pages/events.html">EVENTS</a></li>
-        </ul>
 
       </div>
 
@@ -68,15 +71,15 @@
         <div class="first-bar__gmap"></div>
 
         <div class="first-bar__copy">
-          <h1 class="first-bar__copy--title">WELCOME TO THE BARLEY CLUB</h1>
+          <h1 class="first-bar__title">WELCOME TO THE BARLEY CLUB</h1>
           <p>Located in the heart of Baldock The Barley Club is inspired by the Malting history of the town. Our intimate 34-seater restaurant will serve a freshly prepared tasting menu using seasonal produce sourced locally and features the finest flavours from around the world.</p>
         </div>
       </div>
 
 
       <div class="booking-cta">
-        <h1 class="booking-cta__text">07592 820761</h1>
-        <h1 class="booking-cta__text"><a href="pages/booking.html">CLICK TO BOOK</a></h1>
+        <a href="pages/booking.html"><h1 class="booking-cta__text">07592 820761</h1>
+        <h1 class="booking-cta__text">CLICK TO BOOK</h1></a>
       </div>
 
 

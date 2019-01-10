@@ -1,27 +1,27 @@
 .hero {
   background-image: URL("../images/bistro-b&w.jpg");
   background-size: cover;
-  background-position: 0 -100px;
-  height: 700px;
+  background-position: center;
+  height: 75vh;
 }
 
 .first-bar {
-  display: grid;
-  grid-template-columns: 35% 65%;
-  height: 500px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .first-bar__gmap {
   background-image: URL("../images/gmaps.png");
   background-size: cover;
   background-position: center;
+  height: 350px;
 }
 
 .first-bar__copy {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 70%;
+  padding: 120px 20px;
   max-width: 650px;
   margin: 0 auto;
   text-align: justify;
@@ -29,7 +29,7 @@
   font-size: 1.2em;
 }
 
-.first-bar__copy--title {
+.first-bar__title {
   font-family: "Archivo Narrow";
   padding-bottom: 20px;
   font-size: 1.8em;
@@ -50,7 +50,6 @@
 }
 
 .booking-cta__text {
-  padding-left: 50%;
   font-family: "Archivo Narrow";
   font-weight: normal;
   color: white;
@@ -58,13 +57,10 @@
 
 .contact-section {
   display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  padding: 150px 0;
-}
-
-.contact-form__wrapper {
-  padding-right: 100px;
+  padding: 120px 20px;
 }
 
 .contact-form__title {
@@ -77,18 +73,18 @@
   padding-top: 70px;
   display: flex;
   flex-direction: column;
-  width: 700px;
+  background-color: red;
 }
 
 .contact-form__input-wrapper {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 .contact-form__input {
   height: 50px;
   font-size: 1.2em;
-  width: 28%;
   border: none;
   border-radius: 8px;
   padding-left: 10px;
@@ -117,12 +113,61 @@
   color: floralwhite;
 }
 
-.contact-text {
-  width: 350px;
-}
-
 @media(min-width: 1500px) {
-  .first-bar__copy--title {
+
+  .hero {
+    background-position: 0 -100px;
+    height: 700px;
+  }
+
+  .first-bar {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    height: 500px;
+  }
+
+  .first-bar__gmap {
+    height: auto;
+  }
+
+  .first-bar__copy {
+    width: 70%;
+    padding: 0;
+  }
+
+  .first-bar__title {
     font-size: 2em;
   }
+
+  .booking-cta__text {
+    padding-left: 50%;
+  }
+
+  .contact-section {
+    flex-direction: row;
+    padding: 150px 0;
+  }
+
+  .contact-form__wrapper {
+    padding-right: 100px;
+  }
+
+  .contact-form {
+    width: 700px;
+  }
+
+  .contact-form__input-wrapper {
+    flex-direction: row;
+  }
+
+  .contact-form__input {
+    width: 28%;
+  }
+
+
+
+  .contact-text {
+    width: 350px;
+  }
+
 }

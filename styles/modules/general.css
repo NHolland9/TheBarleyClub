@@ -23,11 +23,12 @@ a {
 }
 
 .page {
-  padding: 150px 25%;
+  padding: 120px 20px;
 }
 
 .page--booking {
   display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
 }
@@ -44,4 +45,16 @@ a {
 .page__line {
   padding-bottom: 30px;
   font-size: 1.3em;
+}
+
+@media(min-width: 1500px) {
+
+  .page {
+    padding: 150px 25%;
+  }
+
+  .page--booking {
+    flex-direction: row;
+  }
+
 }

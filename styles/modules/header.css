@@ -1,14 +1,17 @@
 .mobile-navbar {
   background-color: black;
   text-align: center;
-  padding: 20px 0;
   font-family: 'Archivo Narrow';
   color: floralwhite;
 }
 
+.mobile-navbar__logo {
+  padding-top: 20px;
+}
+
 .mobile-navbar__button {
   font-size: 1.3em;
-  padding-top: 15px;
+  padding: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,21 +19,37 @@
 
 .mobile-navbar__burger {
   padding-left: 10px;
+  height: 25px;
 }
 
-.mobile-navbar__links {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
+.dropdown {
+  text-align: right;
   background-color: black;
-  list-style: none;
-  padding: 10px 0;
+  position: absolute;
+  font-family: 'Archivo Narrow';
+  color: floralwhite;
   width: 100%;
+  padding-bottom: 20px;
+  display: none;
 }
 
-.links {
-  padding: 4px 0;
-  border-bottom: 1px dotted floralwhite;
+.dropdown__cross {
+  padding: 20px 20px 0 0;
+}
+
+.dropdown__link-wrapper {
+  padding-left: 70px;
+}
+
+.dropdown__link {
+  padding: 20px 20px 6px 0;
+  font-size: 1.2em;
+  list-style: none;
+  border-bottom: 1px dotted grey;
+}
+
+hr {
+  border: 1px dotted grey;
 }
 
 .navbar {
