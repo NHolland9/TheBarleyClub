@@ -1,24 +1,19 @@
 .subscription {
   background-color: black;
   color: floralwhite;
-  padding: 50px 20px;
+  padding: 200px 20px;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 3em;
 }
 
 .subscription--home {
-  padding: 120px 20px;
+  padding: 300px 20px;
 }
 
 .subscription__title {
-  padding-bottom: 30px;
+  padding-bottom: 100px;
   font-size: 2em;
   font-family: "Archivo Narrow";
-}
-
-.subscription__title--home {
-  padding-bottom: 50px;
-  font-size: 2.5em;
 }
 
 .subscription__form {
@@ -28,26 +23,22 @@
 }
 
 .subscription__form--home {
-  padding-bottom: 70px
+  padding-bottom: 120px;
 }
 
 .subscription__email {
-  height: 40px;
+  height: 120px;
   border: none;
   padding: 0 0 0 15px;
-  width: 250px;
+  width: 50vw;
   font-size: 1.2em;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
 
-.subscription__email--home {
-  height: 60px;
-}
-
 .subscription__submit {
-  height: 40px;
-  width: 130px;
+  height: 120px;
+  width: 250px;
   background-color: dodgerblue;
   border: none;
   color: floralwhite;
@@ -56,22 +47,19 @@
   border-bottom-right-radius: 8px;
 }
 
-.subscription__submit--home {
-  height: 60px;
-}
-
 .footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px 0;
+  padding: 100px 0;
+  font-size: 3em;
 }
 
 .footer__section {
   font-size: 1.2em;
-  padding: 30px 40px;
+  padding: 100px;
 }
 
 .footer__section--cta {
@@ -79,14 +67,15 @@
 }
 
 .footer__section--middle {
-  border-top: 1px solid silver;
-  border-bottom: 1px solid silver;
+  border-top: 3px solid silver;
+  border-bottom: 3px solid silver;
   font-family: 'Archivo Narrow';
 }
 
 .footer__booking-link {
   color: floralwhite;
   padding: 15px 40px;
+  padding: 35px 60px;
   margin-top: 20px;
   background-color: black;
   border-radius: 12px;
@@ -104,30 +93,52 @@
   padding-bottom: 5px;
 }
 
+.footer__media-link {
+  width: 150px;
+}
+
 .copyright {
   font-family: monospace;
   font-size: 1.1em;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   text-align: center;
+  font-size: 3em;
 }
 
 @media(min-width: 1500px) {
 
   .subscription {
-    padding: 50px 0;
+    padding: 70px 0;
+    font-size: 1.1em;
   }
 
   .subscription--home {
     padding: 150px 0;
   }
 
+  .subscription__title {
+    padding-bottom: 50px;
+    font-size: 2.5em;
+  }
+
+  .subscription__form--home {
+    padding-bottom: 60px;
+  }
+
   .subscription__email {
     width: 300px;
+    height: 50px;
+  }
+
+  .subscription__submit {
+    width: 130px;
+    height: 50px;
   }
 
   .footer {
     flex-direction: row;
     padding: 20px 0;
+    font-size: 1em;
   }
 
   .footer__section {
@@ -141,6 +152,19 @@
     border-left: 1px solid silver;
     border-right: 1px solid silver;
     font-family: 'Archivo Narrow';
+  }
+
+  .footer__booking-link {
+    padding: 15px 40px;
+  }
+
+  .footer__media-link {
+    width: 60px;
+  }
+
+  .copyright {
+    font-size: 1em;
+    padding-bottom: 20px;
   }
 
 }

@@ -23,7 +23,7 @@ a {
 }
 
 .page {
-  padding: 120px 20px;
+  padding: 300px 40px;
 }
 
 .page--booking {
@@ -35,7 +35,8 @@ a {
 
 .page__title {
   font-family: "Archivo Narrow";
-  padding-bottom: 30px;
+  padding-bottom: 90px;
+  font-size: 6em;
 }
 
 .page__title--center {
@@ -43,8 +44,8 @@ a {
 }
 
 .page__line {
-  padding-bottom: 30px;
-  font-size: 1.3em;
+  padding-bottom: 60px;
+  font-size: 3em;
 }
 
 @media(min-width: 1500px) {
@@ -55,6 +56,16 @@ a {
 
   .page--booking {
     flex-direction: row;
+  }
+
+  .page__title {
+    padding-bottom: 30px;
+    font-size: 2.5em;
+  }
+
+  .page__line {
+    padding-bottom: 30px;
+    font-size: 1.3em;
   }
 
 }
