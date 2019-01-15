@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+
     <link rel="stylesheet" type="text/css" href="styles/modules/reset.css" />
     <link rel="stylesheet" type="text/css" href="../styles/modules/general.min.css" />
     <link rel="stylesheet" type="text/css" href="../styles/modules/header.min.css" />
@@ -37,7 +37,10 @@
         </div>
 
 
-        <a href="../index.html"><img class="mobile-navbar__logo" src="../images/mobile-logo.png" /></a>
+        <a href="../index.html"><div class="mobile-navbar__logo-wrapper">
+          <img class="mobile-navbar__logo" src="../images/logo-inverted.png" />
+          <img class="mobile-navbar__title" src="../images/title-inverted.png" />
+        </div></a>
 
         <div class="mobile-navbar__button" onclick="dropdownOpen()">
           <p>MENU</p>
@@ -49,10 +52,9 @@
 
       <div class="navbar">
 
-        <a href="../index.html"><div class="navbar__logo">
-          <img src="../images/logo-circle-inverted.png" width=70px />
-          <img class="navbar__title-img" src="../images/title-inverted.png" width=350px />
-          <!--<p class="navbar__title">THE BARLEY CLUB</p>-->
+        <a href="../index.html"><div class="navbar__logo-wrapper">
+          <img class="navbar__logo" src="../images/logo-inverted.png" />
+          <img class="navbar__title" src="../images/title-inverted.png" />
         </div></a>
 
         <ul>

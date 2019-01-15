@@ -26,23 +26,24 @@
 }
 
 .subscription__email {
-  height: 60px;
+  height: 50px;
   width: 60vw;
+  max-width: 400px;
   border: none;
   padding: 0 0 0 15px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .subscription__submit {
-  height: 60px;
+  height: 50px;
   background-color: dodgerblue;
   border: none;
   color: floralwhite;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding: 0 10px;
 }
 
@@ -65,8 +66,8 @@
 }
 
 .footer__section--middle {
-  border-top: 3px solid silver;
-  border-bottom: 3px solid silver;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
   font-family: 'Archivo Narrow';
 }
 

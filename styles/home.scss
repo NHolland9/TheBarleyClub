@@ -25,6 +25,7 @@
   margin: 0 auto;
   text-align: justify;
   font-family: "lato";
+  max-width: 750px;
 }
 
 .first-bar__title {
@@ -83,8 +84,8 @@
 }
 
 .contact-form__input {
-  height: 60px;
-  font-size: 25px;
+  height: 50px;
+  font-size: 20px;
   border: none;
   border-radius: 8px;
   padding: 0 20px;
@@ -94,7 +95,7 @@
 
 .contact-form__text-area {
   resize: none;
-  font-size: 25px;
+  font-size: 20px;
   height: 200px;
   margin: 10px 0;
   padding: 20px 20px 0 20px;
@@ -104,7 +105,7 @@
 }
 
 .contact-form__submit {
-  height: 60px;
+  height: 50px;
   border-radius: 10px;
   font-size: 1.5em;
   padding: 0 30px;
@@ -114,7 +115,69 @@
   color: floralwhite;
 }
 
-@media(min-width: 1500px) {
+.contact-text {
+  font-size: 1.2em;
+}
+
+
+@media(min-width: 600px) {
+
+  .first-bar__copy {
+    padding: 200px 12%;
+  }
+
+  .first-bar__gmap {
+    height: 500px;
+  }
+
+  .booking-cta {
+    height: 500px;
+  }
+
+  .contact-section {
+    padding: 150px 12%;
+  }
+
+}
+
+
+@media(min-width: 900px) {
+
+  .contact-form {
+    padding-top: 70px;
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .contact-form__input-wrapper {
+    flex-direction: row;
+  }
+
+  .contact-form__input {
+    width: 28%;
+    height: 50px;
+    margin: 0;
+    font-size: 1.2em;
+    padding-left: 10px;
+  }
+
+  .contact-form__text-area {
+    font-size: 1.7em;
+    padding: 10px 0 0 10px;
+    margin: 20px 0;
+    height: 200px;
+  }
+
+  .contact-form__submit {
+    height: 50px;
+    width: 150px;
+    font-size: 1.4em;
+  }
+
+}
+
+
+@media(min-width: 1200px) {
 
   .hero {
     background-position: 0 -100px;
@@ -141,13 +204,8 @@
     font-size: 2em;
   }
 
-  .booking-cta {
-    height: 500px;
-  }
-
   .booking-cta__text {
     padding-left: 50%;
-    font-size: 1.4em;
   }
 
   .contact-section {
@@ -164,38 +222,9 @@
     font-size: 2.5em;
   }
 
-  .contact-form {
-    padding-top: 70px;
-    width: 700px;
-  }
-
-  .contact-form__input-wrapper {
-    flex-direction: row;
-  }
-
-  .contact-form__input {
-    width: 28%;
-    height: 50px;
-    margin: 0;
-    font-size: 1.2em;
-    padding-left: 10px;
-  }
-
-  .contact-form__text-area {
-    font-size: 1.7em;
-    padding: 10px 0 0 10px;
-    margin: 20px 0;
-    height: 200px;
-  }
-
-  .contact-form__submit {
-    height: 55px;
-    width: 150px;
-    font-size: 1.4em;
-  }
-
   .contact-text {
     width: 350px;
+    font-size: 1em;
   }
 
 }
