@@ -1,7 +1,7 @@
 .hero {
-  background-image: URL("../images/bistro-b&w.jpg");
+  background-image: URL("../images/hero-filter.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   height: 500px;
 }
 
@@ -180,7 +180,6 @@
 @media(min-width: 1200px) {
 
   .hero {
-    background-position: 0 -100px;
     height: 700px;
   }
 

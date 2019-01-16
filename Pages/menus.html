@@ -14,7 +14,12 @@
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
     <script src="../script.js"></script>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
   </head>
 
 
@@ -25,7 +30,7 @@
       <div class="mobile-navbar">
 
         <div class="dropdown" id="dropdown">
-          <img class="dropdown__cross" src="../images/cross.png" onclick="dropdownClose()" />
+          <img class="dropdown__cross" src="../images/cross.png" />
 
           <ul class="dropdown__link-wrapper">
             <li class="dropdown__link"><a href="../index.html">HOME</a></li>
@@ -42,7 +47,7 @@
           <img class="mobile-navbar__title" src="../images/title-inverted.png" />
         </div></a>
 
-        <div class="mobile-navbar__button" onclick="dropdownOpen()">
+        <div class="mobile-navbar__button">
           <p>MENU</p>
           <img class="mobile-navbar__burger" src="../images/burger-menu.png"/>
         </div>
@@ -68,7 +73,7 @@
       </div>
 
 
-      <div class="banner-image"></div>
+      <div class="banner-image banner-image--menu"></div>
 
     </header>
 
@@ -77,27 +82,11 @@
 
       <div class="page">
 
-        <h1 class="page__title page__title--center">MENU</h1>
+        <h1 class="page__title page__title--center">MENUS</h1>
 
 
-        <h2 class="menu__heading">STARTERS</h2>
-        <p class="menu__description"><span class="menu__title">NICOISE SALAD </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;6</p>
-        <p class="menu__description"><span class="menu__title">MOULES MARINIERE </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;7</p>
-        <p class="menu__description"><span class="menu__title">SPANISH CHORIZO </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;6</p>
-
-
-        <h2 class="menu__heading">MAINS</h2>
-        <p class="menu__description"><span class="menu__title">ROAST DUCK LEG </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;16</p>
-        <p class="menu__description"><span class="menu__title">BUTTERNUT SQUASH RISOTTO </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;13.50</p>
-        <p class="menu__description"><span class="menu__title">300G FILLET STEAK </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;22</p>
-        <p class="menu__description"><span class="menu__title">PAN FRIED SEA BREAM </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;17.50</p>
-        <p class="menu__description"><span class="menu__title">SLOW COOKED RABBIT STEW </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;16</p>
-
-
-        <h2 class="menu__heading">DESSERTS</h2>
-        <p class="menu__description"><span class="menu__title">LUXURY VICTORIA SPONGE </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;5.50</p>
-        <p class="menu__description"><span class="menu__title">BREAD AND BUTTER PUDDING </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;6</p>
-        <p class="menu__description"><span class="menu__title">BARLEY CLUB CHEESE BOARD </span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.&emsp;&pound;6.50</p>
+        <a href="../menu.pdf" target="_blank"><h2 class="menu-link">5 COURSE TASTER MENU</h2></a>
+        <a href="../menu-vegan.pdf" target="_blank"><h2 class="menu-link">5 COURSE TASTER MENU - VEGAN</h2></a>
 
       </div>
 

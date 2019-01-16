@@ -1,1 +1,1 @@
-.menu__heading{font-family:'Archivo Narrow';font-size:1.8em;padding:20px 0 0 10vw;font-weight:normal;background-color:black;color:floralwhite;width:50%;margin:50px 0 30px 0}.menu__description{padding:0 5vw 20px 5vw}.menu__title{font-size:1.5em;font-family:'Archivo Narrow'}@media (min-width: 900px){.menu__heading{max-width:400px}}@media (min-width: 1200px){.menu__heading{padding:20px 0 0 120px}.menu__description{padding:0 0 20px 60px}}
+.menu-link{font-family:'Archivo Narrow';padding-top:25px}

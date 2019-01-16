@@ -26,6 +26,14 @@ a {
     height: 100px;
 }
 
+.banner-image--about {
+  background-image: URL("../../images/about-cropped-filter.jpg")
+}
+
+.banner-image--menu {
+  background-image: URL("../../images/menu-cropped-filter.jpg")
+}
+
 .page {
   padding: 150px 20px;
 }
@@ -51,6 +59,9 @@ a {
   padding-bottom: 30px;
 }
 
+.page__line--event {
+  padding-top: 50px;
+}
 
 @media(min-width: 600px) {
 
@@ -66,6 +77,10 @@ a {
 
 
 @media(min-width: 1200px) {
+
+  .banner-image {
+    height: 250px;
+  }
 
   .page {
     padding: 150px 18%;

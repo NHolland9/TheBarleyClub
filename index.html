@@ -14,7 +14,12 @@
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
   </head>
 
 
@@ -25,7 +30,7 @@
       <div class="mobile-navbar">
 
         <div class="dropdown" id="dropdown">
-          <img class="dropdown__cross" src="images/cross.png" onclick="dropdownClose()" />
+          <img class="dropdown__cross" src="images/cross.png" />
 
           <ul class="dropdown__link-wrapper">
             <li class="dropdown__link"><a href="index.html">HOME</a></li>
@@ -42,7 +47,7 @@
           <img class="mobile-navbar__title" src="images/title-inverted.png" />
         </div></a>
 
-        <div class="mobile-navbar__button" onclick="dropdownOpen()">
+        <div class="mobile-navbar__button">
           <p>MENU</p>
           <img class="mobile-navbar__burger" src="images/burger-menu.png"/>
         </div>
@@ -96,13 +101,13 @@
         <div class="contact-form__wrapper">
           <h1 class="contact-form__title">CONTACT US</h1>
 
-          <form class="contact-form">
+          <form class="contact-form" action="contact-form.php" method="post">
             <div class="contact-form__input-wrapper">
-              <input class="contact-form__input" type="text" placeholder="NAME" />
-              <input class="contact-form__input" type="tel" placeholder="PHONE" />
-              <input class="contact-form__input" type="email" placeholder="EMAIL" />
+              <input class="contact-form__input" type="text" name="name" placeholder="NAME" />
+              <input class="contact-form__input" type="tel" name="phone" placeholder="PHONE" />
+              <input class="contact-form__input" type="email" name="email" placeholder="EMAIL" />
             </div>
-            <textarea class="contact-form__text-area" placeholder="LEAVE A MESSAGE"></textarea>
+            <textarea class="contact-form__text-area" name="message" placeholder="LEAVE A MESSAGE"></textarea>
             <input class="contact-form__submit" type="submit" value="SEND" />
           </form>
         </div>

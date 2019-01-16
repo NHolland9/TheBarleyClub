@@ -1,7 +1,9 @@
-function dropdownOpen() {
-  document.getElementById('dropdown').style.display = "block";
-};
+$(document).ready(function() {
 
-function dropdownClose() {
-  document.getElementById('dropdown').style.display = "none";
-};
+
+  $(".mobile-navbar__button, .dropdown__cross").click(function() {
+    $(".dropdown").toggle();
+  });
+  
+
+});
