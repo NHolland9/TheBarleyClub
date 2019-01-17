@@ -11,10 +11,16 @@
 }
 
 .first-bar__gmap {
-  background-image: URL("../images/gmaps.png");
+  /*background-image: URL("../images/gmaps.png");
   background-size: cover;
-  background-position: center;
+  background-position: center;*/
   height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: floralwhite;
 }
 
 .first-bar__copy {
@@ -37,7 +43,7 @@
 
 .booking-cta {
   height: 400px;
-  background-image: URL("../images/dinner-b&w.jpg");
+  background-image: URL("../images/dinner-filter.jpg");
   background-size: cover;
   background-position: center;
   color: floralwhite;
@@ -113,6 +119,9 @@
   background-color: black;
   border: none;
   color: floralwhite;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .contact-text {
